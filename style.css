@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Red+Hat+Display:wght@400;500;700&family=Roboto+Mono:wght@700&family=Rubik:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+nav input {
+  border: none;
+  border-radius: 60px;
+  border: 1px solid var(--system-gray-05-light, #e5e5ea);
+  background: #fff;
+  box-shadow: 0px 12px 24px 0px rgba(5, 16, 55, 0.04);
+  display: flex;
+  width: 450px;
+  padding: 9px 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+nav button {
+  display: inline-flex;
+  justify-content: center;
+  padding: 13px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 29px;
+  border: 0.5px solid rgba(146, 199, 255, 0.12);
+  background: rgb(188, 202, 217);
+  color: #0074f0;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+nav {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+  text-align: center;
+  font-weight: 800;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav h1 {
+  font-weight: 700;
+}
+
+.divde {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+  stroke-width: 0.5px;
+  stroke: #e5e5ea;
+  filter: drop-shadow(0px 10px 20px rgba(5, 16, 55, 0.1));
+}
+
+section {
+  display: flex;
+  justify-content: start;
+  margin-left: 50px;
+  padding-top: 50px;
+}
+
+section img {
+  width: 800px;
+  height: 490px;
+  flex-shrink: 0;
+}
+
+.div-1 img {
+  width: 20px;
+  height: 20px;
+}
+
+.div-1 {
+  margin-left: 55px;
+  width: 432px;
+  height: 490px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 34px 0px rgba(5, 16, 55, 0.15);
+}
+
+.rasm-p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.div-1 h3 {
+  color: #000;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.rasm-p {
+  margin-left: 30px;
+  margin-top: 20px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.yozuvla {
+  margin-top: 55px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.ibrohimde-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-1 button {
+  margin-top: 20px;
+  display: flex;
+  width: 350px;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 45px;
+  background: #297eda;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.center-1 a {
+  text-decoration: none;
+  color: #007aff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.section-2 a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 900px;
+  font-size: 20px;
+}
+
